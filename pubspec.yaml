@@ -1,0 +1,20 @@
+name: desktop_time_tracker
+description: Desktop app to track time spent in applications
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path_provider: ^2.0.0
+  sqflite_common_ffi: any
+  intl: ^0.18.0
+  win32: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
