@@ -14,6 +14,11 @@ dependencies:
   intl: ^0.18.0
   win32: any
 
+  bloc: any
+  google_fonts: any
+  boxicons: any
+  window_manager: any
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

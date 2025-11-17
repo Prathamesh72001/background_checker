@@ -6,7 +6,7 @@ import 'dart:io';
 
 Future<ActiveWindow?> getActiveWindowImpl() async {
   if (Platform.isWindows) return win.getActiveWindowWindows();
-  if (Platform.isMacOS) return mac.getActiveWindowMac();
+  if (Platform.isMacOS) return mac.ActiveWindowMacOS.getActiveWindow();
   if (Platform.isLinux) return lin.getActiveWindowLinux();
   return null;
 }
